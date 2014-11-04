@@ -21,6 +21,8 @@
 		BA2B63E31A06EE4300908242 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2B63C51A06EE4300908242 /* UIKit.framework */; };
 		BA2B63EB1A06EE4300908242 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA2B63E91A06EE4300908242 /* InfoPlist.strings */; };
 		BA2B63ED1A06EE4300908242 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2B63EC1A06EE4300908242 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */; };
+		BA2B63F81A06EECB00908242 /* ADSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2B63F71A06EECB00908242 /* ADSignInViewController.m */; };
+		BA2B63FB1A06EEE600908242 /* ADCreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2B63FA1A06EEE600908242 /* ADCreateAccountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		BA2B63E81A06EE4300908242 /* NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues and Protocols Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		BA2B63EA1A06EE4300908242 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA2B63EC1A06EE4300908242 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		BA2B63F61A06EECB00908242 /* ADSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSignInViewController.h; sourceTree = "<group>"; };
+		BA2B63F71A06EECB00908242 /* ADSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSignInViewController.m; sourceTree = "<group>"; };
+		BA2B63F91A06EEE600908242 /* ADCreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCreateAccountViewController.h; sourceTree = "<group>"; };
+		BA2B63FA1A06EEE600908242 /* ADCreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCreateAccountViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				BA2B63D01A06EE4300908242 /* ADAppDelegate.h */,
 				BA2B63D11A06EE4300908242 /* ADAppDelegate.m */,
 				BA2B63D31A06EE4300908242 /* Main.storyboard */,
+				BA2B63F61A06EECB00908242 /* ADSignInViewController.h */,
+				BA2B63F71A06EECB00908242 /* ADSignInViewController.m */,
+				BA2B63F91A06EEE600908242 /* ADCreateAccountViewController.h */,
+				BA2B63FA1A06EEE600908242 /* ADCreateAccountViewController.m */,
 				BA2B63D61A06EE4300908242 /* ADViewController.h */,
 				BA2B63D71A06EE4300908242 /* ADViewController.m */,
 				BA2B63D91A06EE4300908242 /* Images.xcassets */,
@@ -253,6 +263,8 @@
 				BA2B63CE1A06EE4300908242 /* main.m in Sources */,
 				BA2B63D81A06EE4300908242 /* ADViewController.m in Sources */,
 				BA2B63D21A06EE4300908242 /* ADAppDelegate.m in Sources */,
+				BA2B63FB1A06EEE600908242 /* ADCreateAccountViewController.m in Sources */,
+				BA2B63F81A06EECB00908242 /* ADSignInViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
